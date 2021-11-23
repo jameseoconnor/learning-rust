@@ -1,0 +1,11 @@
+/Users/joconnor/Desktop/projects_2.0/learning-rust/ch1/life/target/debug/deps/ppv_lite86-6471ad9888025cb2.rmeta: /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/lib.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/soft.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/types.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/mod.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/sse2.rs
+
+/Users/joconnor/Desktop/projects_2.0/learning-rust/ch1/life/target/debug/deps/libppv_lite86-6471ad9888025cb2.rlib: /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/lib.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/soft.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/types.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/mod.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/sse2.rs
+
+/Users/joconnor/Desktop/projects_2.0/learning-rust/ch1/life/target/debug/deps/ppv_lite86-6471ad9888025cb2.d: /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/lib.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/soft.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/types.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/mod.rs /Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/sse2.rs
+
+/Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/lib.rs:
+/Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/soft.rs:
+/Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/types.rs:
+/Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/mod.rs:
+/Users/joconnor/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.15/src/x86_64/sse2.rs:

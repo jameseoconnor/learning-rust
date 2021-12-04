@@ -1,10 +1,9 @@
-I recently bought the book "Beginning Rust Programming" by Ric Messier, and am working through it slowly but surely!
+I recently bought the book ["Beginning Rust Programming"](https://www.amazon.com/Beginning-Rust-Programming-Ric-Messier-ebook/dp/B08WZ2D7WC) by Ric Messier, and am working through it slowly but surely!
 
 # Table of Contents
 1. [Chapter 1](#chapter1)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+2. [Chapter 2](#chapter2)
+
 
 ## Chapter 1 - Game of Life - The Basics <a name="chapter1"></a>
 1970 John Horton Conway 
@@ -246,3 +245,48 @@ So in this case, if we say, well if i > 0, then it will *always* check the one b
 If j > 0, it will *always* check the one above it even if it is on the left, right or bottom.  So in most cases, we check above us. 
 
 Start by thinking what happens *in most cases* rather than what happens *in specific cases*
+
+
+## Chapter 2 - Extending Life <a name="chapter2"></a>
+### Understanding Ownership 
+ ~~~
+ let var1 = 42
+ ~~~
+- variable name = var1 (to the comupter it may look like 0X4890ba45)
+- let = indicate memory must be allocated to hold variable 
+- identifiers are the name of the variable, variables are the content stored at a memory location
+
+Rust doesn't have a reference counter or a garbage colelctor because it only allows a single variable name or alias to own a memory location at any point in time. You can move ownership of the memory space from one identifier to another, but you can't copy. 
+ 
+**Adding Modules Note - Using a wildcard in Cargo.toml file rather than a version number will pull the latest version**
+
+### Back to the Game - Passing in Arguments
+~~~
+use std::env;
+~~~
+This line inherits the environment variables that we can work with
+
+~~~
+let args: Vec<String> = env::args().collect();
+~~~
+The args() function collects environment arguments passed to the program into a Vector. A Vector is a collection of a single datatype. The return type for this function is an iterator, which is a pointer to a batch of related chunks of data. 
+
+The iterator knows the size of the datatype, so it knows how far to jump ahead in memory to get the next value. 
+
+So if we run
+~~~
+$ ./life filename
+~~~
+The vector will look like:  
+~~~
+./life 			- first value
+filename		- second value
+~~~
+ 
+ The collect() function places all the arguments into a collection, as using the Iterator from args() we would have to loop through or get one at a time. 
+ 
+ ~~~
+ if args.len() < 2 {
+ 	// This checks if any arguments were passed, as the file path to the executable is always the first argument
+ }
+ ~~~

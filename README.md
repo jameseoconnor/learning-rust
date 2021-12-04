@@ -1,4 +1,4 @@
-I recently bought the book ["Beginning Rust Programming"](https://www.amazon.com/Beginning-Rust-Programming-Ric-Messier-ebook/dp/B08WZ2D7WC) by Ric Messier, and am working through it slowly but surely!
+I recently bought the book ["Beginning Rust Programming"](https://www.amazon.com/Beginning-Rust-Programming-Ric-Messier-ebook/dp/B08WZ2D7WC) by Ric Messier, and am working through it slowly but surely! These are ny notes. 
 
 # Table of Contents
 1. [Chapter 1](#chapter1)

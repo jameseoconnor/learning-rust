@@ -1,7 +1,10 @@
 extern crate rand; // import an external crate called rand 
-use std::{thread, time}; // import thread and time standard libraries 
-// use std::thread;
-// use std::time; same thing
+extern crate termion;
+use std::{env, thread, time}; // import thread and time standard libraries 
+use std::fs::File;
+use std::io::{BufRead, BufReader};
+use termion::clear;
+use termion::color;
 
 
 // let yes_no: bool = true; // weird way to define a variable but there we go 
@@ -66,13 +69,17 @@ fn main() {
     let mut world = [[0u8; 75]; 75]; // populate with a zero value, which is unsigned 8 bit
     let mut generations = 0; // mut means mutable, meaning we are gonig to change it 
 
-    for i in 0..74 {
-        for j in 0..74 {
-            if rand::random() {
-                world[i][j] = 1;
-            } else {
-                world[i][j] = 0;
-            }
-        } 
+    let args: Vec<String> = env::args().collect();
+
+    if args.len() < 2 {         // if we don't pass arguments to the program, do it randomly 
+        for i in 0..74 {
+            for j in 0..74 {
+                if rand::random() {
+                    world[i][j] = 1;
+                } else {
+                    world[i][j] = 0;
+                }
+            } 
+        }
     }
 }

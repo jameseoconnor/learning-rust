@@ -7,9 +7,9 @@ I recently bought the book "Beginning Rust Programming" by Ric Messier, and am w
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 ## Chapter 1 - Game of Life - The Basics <a name="chapter1"></a>
-1970 John Horton Conway 
 
-**Game of Life Rule**
+
+**Game of Life Rule - 1970 John Horton Conway**
 - If a cell is currently alive but has fewer than 2 neighbours, it dies because of a lack of support 
 - If a cell is alive and has two or three neighbours, it survives the next generation 
 - If a cell is alive and has more than three neighbours, it dies from over population 
